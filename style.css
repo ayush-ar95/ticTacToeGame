@@ -10,13 +10,13 @@ body {
 }
 
 .game-board {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     justify-items: center;
-    /* border: 1px red solid; */
+    border: 1px red solid;
 }
 
 .game-board h1 {
@@ -67,7 +67,7 @@ body {
 }
 
 .reset-button{
-    margin: 15px;
+    margin: 5vh 5vh 8vh 5vh;
     padding: 10px 15px;
     width:22vh;
     text-align: center;
