@@ -16,7 +16,7 @@ body {
     align-content: center;
     align-items: center;
     justify-items: center;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .game-board h1 {
@@ -47,16 +47,16 @@ body {
     text-align: center;
     font-size: 6vh;
     color: lightcoral;
-    box-shadow: 0 0 1rem rgb(0,0,0,0.1);
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.1);
     /* box-shadow: -1px 1px 14px -5px rgba(0,0,0,0.68); */
 }
 
-.dialog-box{
-    display: block;
+.dialog-box {
+    /* display: block; */
     position: relative;
     margin-top: 10px;
     padding: 7px 10px;
-    color:teal;
+    color: teal;
     background: none;
     text-align: center;
     font-weight: 600;
@@ -66,10 +66,10 @@ body {
     font-size: 1.55rem;
 }
 
-.reset-button{
-    margin: 5vh 5vh 8vh 5vh;
+.reset-button {
+    margin: 5vh;
     padding: 10px 15px;
-    width:22vh;
+    width: 22vh;
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 1px;
@@ -79,5 +79,9 @@ body {
     border-radius: 5px;
     outline: none;
     border: none;
-    box-shadow: -1px 1px 14px -5px rgba(0,0,0,0.68);
+    box-shadow: -1px 1px 14px -5px rgba(0, 0, 0, 0.68);
+}
+
+.show{
+    display: block;
 }
