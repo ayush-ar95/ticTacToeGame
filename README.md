@@ -11,11 +11,18 @@ This project is a simple implementation of the classic Tic-Tac-Toe game using HT
 
 ## Screenshots
 
-![initial screen](screenshots/initialScreen.png)
-![X wins screen](screenshots/XWins.png)
-![O wins screen](screenshots/OWins.png)
-![draw match screen](screenshots/drawMatch.png)
+-**mobile**:
 ![mobile gif](screenshots/mobileTicTacToe.gif)
+
+-**web**:
+![initial screen](screenshots/initialScreen.png)
+
+![X wins screen](screenshots/XWins.png)
+
+![O wins screen](screenshots/OWins.png)
+
+![draw match screen](screenshots/drawMatch.png)
+
 
 ## Project Structure
 1. index.html: The main HTML file that contains the structure of the game.
