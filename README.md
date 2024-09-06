@@ -11,10 +11,10 @@ This project is a simple implementation of the classic Tic-Tac-Toe game using HT
 
 ## Screenshots
 
-- **mobile** :
+### mobile :
 ![mobile gif](screenshots/mobileTicTacToe.gif)
 
-- **web** :
+### web :
 ![initial screen](screenshots/initialScreen.png)
 ![X wins screen](screenshots/XWins.png)
 ![O wins screen](screenshots/OWins.png)
