@@ -71,9 +71,11 @@ const changeWinColor = () => {
 
 // remove the box win color after reset.
 const removeWinColor = () => {
-    boxes[colorBoxes[0]].classList.remove("color-win");
-    boxes[colorBoxes[1]].classList.remove("color-win");
-    boxes[colorBoxes[2]].classList.remove("color-win");
+    if (colorBoxes) {
+        boxes[colorBoxes[0]].classList.remove("color-win");
+        boxes[colorBoxes[1]].classList.remove("color-win");
+        boxes[colorBoxes[2]].classList.remove("color-win");
+    }
 };
 
 // change box color after a draw.
@@ -85,6 +87,7 @@ const changeDrawColor = () => {
 
 // change the box draw color after reset.
 const removeDrawColor = () => {
+    console.log("it runs", boxes);
     boxes.forEach(box => {
         box.classList.remove("color-draw");
     });
